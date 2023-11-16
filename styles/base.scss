@@ -1,9 +1,9 @@
 html {
-  @apply text-base;
+  @apply text-base ;
 }
 
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text;
+  @apply bg-[#0C1732] font-primary font-normal leading-relaxed text-gray-300;
 }
 
 h1,
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-primary font-bold leading-tight text-dark;
+  @apply font-primary font-bold leading-tight text-gray-300;
 }
 
 h1,

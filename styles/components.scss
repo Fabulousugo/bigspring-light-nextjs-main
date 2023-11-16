@@ -1,11 +1,11 @@
 // section style
 .section {
-  @apply pt-[70px] pb-[70px];
+  @apply pt-[70px] pb-[70px] text-primary;
 }
 
 // container
 .container {
-  @apply mx-auto max-w-[1140px] px-4;
+  @apply mx-auto max-w-[1140px] px-4 ;
 }
 
 // form style
@@ -35,7 +35,7 @@
 // form style
 .form-input,
 .form-textarea {
-  @apply border-border py-[6px] focus:border-primary focus:ring-transparent;
+  @apply border-border py-[6px] focus:border-black focus:ring-transparent;
 }
 
 // content style
@@ -44,14 +44,14 @@
 
   ul {
     li {
-      @apply relative pl-5 before:absolute before:left-0 before:top-[10px] before:h-2 before:w-2 before:rounded-full before:bg-primary before:content-[''];
+      @apply relative pl-5 before:absolute before:left-0 before:top-[10px] before:h-2 before:w-2 before:rounded-full before:bg-[#0C1732]  text-primary before:content-[''];
     }
   }
 }
 
 //feature card
 .feature-card {
-  @apply transition-all duration-200 ease-in-out hover:shadow;
+  @apply transition-all duration-200 ease-in-out hover:shadow text-primary ;
 }
 
 //swiper pagination
@@ -61,7 +61,7 @@
   span {
     @apply mx-[5px] inline-block h-[10px] w-[10px] cursor-pointer rounded-full border  border-primary;
     &.swiper-pagination-bullet-active {
-      @apply bg-primary;
+      @apply bg-[#0C1732];
     }
   }
 }
@@ -80,14 +80,14 @@
 
 //card
 .card {
-  @apply mt-10 rounded-[4px] border border-[rgba(0,0,0,.125)] bg-white px-5 px-5 py-12 py-12 shadow md:mt-0;
+  @apply mt-10 rounded-[4px] border border-[rgba(0,0,0,.125)] bg-[#0C1732] text-white px-5 px-5 py-12 py-12 shadow md:mt-0;
 }
 
 .col-recommended {
   @apply relative z-10 md:-mx-8 md:-my-6;
 
   .card {
-    @apply border-0 shadow-[0_1rem_3rem_rgba(0,0,0,.175)];
+    @apply border-0 shadow-[0_1rem_3rem_rgba(0,0,0,.175)]  ;
   }
 }
 
@@ -101,7 +101,7 @@
   }
   &-body {
     a {
-      @apply text-primary;
+      @apply text-primary ;
     }
   }
 }
@@ -109,6 +109,6 @@
 //contact
 .contact-list {
   a {
-    @apply font-semibold text-dark;
+    @apply font-semibold text-primary ;
   }
 }

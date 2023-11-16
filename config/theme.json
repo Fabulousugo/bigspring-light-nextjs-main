@@ -3,12 +3,12 @@
     "default": {
       "theme_color": {
         "primary": "#0aa8a7",
-        "body": "#fff",
+        "body": "#0C1732",
         "border": "#e9e9e9",
-        "theme_light": "#edf6f5"
+        "theme_light": "#0C1732"
       },
       "text_color": {
-        "default": "#777",
+        "default": "#0aa8a7",
         "dark": "#222"
       }
     }

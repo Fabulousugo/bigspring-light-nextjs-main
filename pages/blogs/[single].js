@@ -8,6 +8,10 @@ const { blog_folder } = config.settings;
 const Article = ({ post, authors, mdxContent, slug }) => {
   const { frontmatter, content } = post[0];
 
+   const textColorStyle = {
+    color: 'red', // Change this to your desired color value
+  };
+
   return (
     <PostSingle
       frontmatter={frontmatter}

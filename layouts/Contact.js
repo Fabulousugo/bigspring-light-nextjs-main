@@ -13,7 +13,7 @@ const Contact = ({ data }) => {
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
-              className="contact-form"
+              className="contact-form text-black"
               method="POST"
               action={contact_form_action}
             >
@@ -56,13 +56,13 @@ const Contact = ({ data }) => {
               </button>
             </form>
           </div>
-          <div className="content col-12 md:col-6 lg:col-5">
+          <div className="content col-12 md:col-6 lg:col-5 text-gray-300">
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p", "mt-4")}
             <ul className="contact-list mt-5">
               {info.contacts.map((contact, index) => (
                 <li key={index}>
-                  {markdownify(contact, "strong", "text-dark")}
+                  {markdownify(contact, "strong", "text-primary")}
                 </li>
               ))}
             </ul>

@@ -2,11 +2,11 @@
 title: "Contact Us"
 layout: "contact"
 draft: false
-info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
-  contacts: 
+info:
+  title: "Why you should contact us!"
+  description: "Whether you are seeking game-changing logistics solutions or AI-driven mentorship, Tekyville is your partner in progress."
+  contacts:
     - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Mail: [info@tekyville.com]"
+    - "Address: Miramar, Florida, USA"
 ---
