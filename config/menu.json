@@ -23,8 +23,8 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "About",
+          "url": "/contact"
         },
         {
           "text": "Quick Start",

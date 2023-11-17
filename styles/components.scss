@@ -5,7 +5,7 @@
 
 // container
 .container {
-  @apply mx-auto max-w-[1140px] px-4 ;
+  @apply mx-auto max-w-[1140px] px-4 text-gray-300; //Innovative solutions sections
 }
 
 // form style
@@ -40,7 +40,7 @@
 
 // content style
 .content {
-  @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h5:text-base prose-h6:mb-6 prose-h6:text-[15px] prose-a:no-underline hover:prose-a:text-primary prose-blockquote:border-primary prose-blockquote:py-1 prose-blockquote:px-4 prose-ol:pl-4 prose-ul:list-none prose-ul:pl-0 prose-hr:my-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
+  @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h5:text-base prose-h6:mb-6 prose-h6:text-[15px] prose-a:no-underline hover:prose-a:text-primary prose-blockquote:border-primary prose-blockquote:py-1 prose-blockquote:px-4 prose-ol:pl-4 prose-ul:list-none prose-ul:pl-0 prose-hr:my-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3 ;
 
   ul {
     li {
@@ -51,7 +51,7 @@
 
 //feature card
 .feature-card {
-  @apply transition-all duration-200 ease-in-out hover:shadow text-primary bg-black  ;
+  @apply transition-all duration-200 ease-in-out hover:shadow text-primary bg-primary  ;
 }
 
 //swiper pagination
@@ -80,7 +80,7 @@
 
 //card
 .card {
-  @apply mt-10 rounded-[4px] border border-[rgba(0,0,0,.125)] bg-[#0C1732] text-white px-5 px-5 py-12 py-12 shadow md:mt-0 ;
+  @apply mt-10 rounded-[4px] border border-[rgba(0,0,0,.125)] bg-primary text-white px-5 px-5 py-12 py-12 shadow md:mt-0 ;
 }
 
 .col-recommended {
