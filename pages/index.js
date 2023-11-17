@@ -14,13 +14,13 @@ const Home = ({ frontmatter }) => {
   const { title } = config.site;
 
   return (
-    <Base title={title}>
+    <Base title={title} >
       {/* Banner */}
-      <section className="section pb-[50px]">
-        <div className="container">
-          <div className="row text-center">
-            <div className="mx-auto lg:col-10">
-              <h1 className="font-primary font-bold">{banner.title}</h1>
+      <section className="section pb-[50px] text-white">
+        <div className="container text-white">
+          <div className="row text-center text-white">
+            <div className="mx-auto lg:col-10 text-white">
+              <h1 className="font-primary font-bold text-white">{banner.title}</h1>
               <p className="mt-4">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
@@ -46,8 +46,8 @@ const Home = ({ frontmatter }) => {
 
       {/* Features */}
       <section className="section bg-theme-light">
-        <div className="container">
-          <div className="text-center">
+        <div className="container text-primary">
+          <div className="text-center text-primary">
             <h2>{markdownify(feature.title)}</h2>
           </div>
           <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">

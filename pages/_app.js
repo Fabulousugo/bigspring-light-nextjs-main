@@ -42,7 +42,7 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <style
+        <style 
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,
           }}
@@ -51,6 +51,8 @@ const App = ({ Component, pageProps }) => {
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
+
+          
         />
       </Head>
       <Component {...pageProps} />
