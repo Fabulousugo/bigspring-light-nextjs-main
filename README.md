@@ -4,7 +4,7 @@
 
 <p align=center>
   <a href="https://github.com/vercel/next.js/releases/tag/v13.0.6" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
+ 
   </a>
 
   <a href="https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE">
